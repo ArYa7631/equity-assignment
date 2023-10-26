@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { NextApiRequest, NextApiResponse } from 'next';
 
-const ledgerFilePath = path.resolve(process.cwd(), '../data/complicated_ledger.json');
+const ledgerFilePath = path.resolve('data/complicated_ledger.json');
 // instead of getting data from database pick ledger from dummy file from data folder
 
 
